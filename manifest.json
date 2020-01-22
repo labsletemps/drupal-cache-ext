@@ -4,7 +4,7 @@
   "description": "Informations about Drupal's cache headers",
   "version": "0.0.1",
   "icons": {
-    "32": "icons/drupal.png"
+    "32": "icons/drupal-dis.png"
   },
   "permissions": [
     "webRequest", "<all_urls>"
@@ -15,7 +15,7 @@
     ]
   },
   "browser_action": {
-    "default_icon": "icons/drupal.png",
+    "default_icon": "icons/drupal-dis.png",
     "default_popup": "browserAction/index.html",
     "default_title": "Drupal Cache"
   }
