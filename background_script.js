@@ -33,11 +33,6 @@ function logCacheStatus(details) {
     if (cacheHits.length > 0) {
         updateIcon('ok');
     }
-
-    console.log(cacheHits);
-    console.log(cacheMisses);
-    console.log(cacheOthers);
-
 }
 
 browser.webRequest.onHeadersReceived.addListener(logCacheStatus, 
