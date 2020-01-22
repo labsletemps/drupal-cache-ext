@@ -4,7 +4,7 @@
   "description": "Informations about Drupal's cache headers",
   "version": "0.0.1",
   "icons": {
-    "64": "icons/drupal.png"
+    "32": "icons/drupal.png"
   },
   "permissions": [
     "webRequest", "<all_urls>"
