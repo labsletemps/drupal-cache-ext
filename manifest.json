@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Drupal Cache",
   "description": "Informations about Drupal's cache headers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icons": {
     "32": "icons/drupal-dis.png"
   },
