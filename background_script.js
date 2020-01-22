@@ -13,6 +13,14 @@ function updateIcon(type) {
 
 function logCacheStatus(details) {
     currentTab = details.tabId;
+    updateIcon('dis');
+
+    let isDrupal = details.responseHeaders.filter(entry => entry.name.toLowerCase().indexOf("drupal") >= 0 || entry.value.toLowerCase().indexOf("drupal") >= 0);
+
+    if (isDrupal.length === 0) {
+        return;
+    }
+    updateIcon('on');
 
     cacheHeaders = details.responseHeaders.filter(function(header){
         return header.name.indexOf('cache') >= 0 && header.name.startsWith('x-');
